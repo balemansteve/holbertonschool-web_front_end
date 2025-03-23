@@ -1,0 +1,39 @@
+/*
+For the body, set the foreground color value to #161616
+For all anchor elements, set the foreground color value to #161616
+All elements with the class visually-hidden should have their display to none
+All elements with the class card-category, should have their foreground color set to #D73953
+All elements with the class section-tagline should have their foreground color set to #D73953
+
+Author:Alexis Rodriguez
+An Holberton School Uruguay Project
+*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*Body task*/
+body{
+    color: #161616;
+}
+
+/*Anchor task*/
+a{
+    color: #161616;
+}
+
+/*Visually-hidden task*/
+.visually-hidden{
+    display: none;
+}
+
+/*Card-category task*/
+.card-category{
+    color: #D73953;
+}
+
+/*Section-tagline task*/
+.section-tagline{
+    color: #D73953;
+}
